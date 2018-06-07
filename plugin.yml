@@ -1,0 +1,39 @@
+name: NineEyes
+main: ru.ae.main
+author: SanyaFox
+website: https://sanyafox.ru
+version: 0.3.1
+description: Plugin for NineEyes
+commands:
+  nineeyes:
+    description: Information about the plugin
+    usage: /<command>
+    aliases: [ae, ne]
+  vision:
+    description: Night vision effect
+    usage: /<command>
+    aliases: [vs, vn]
+    permission: nineeyes.vision
+    permission-message: §4У Вас нет прав для выполнения данной команды.
+  teamspeak:
+    description: server TeamSpeak
+    usage: /<command>
+    aliases: [ts3]
+  gsreload:
+    description: reload file
+    usage: /<command>
+    aliases: [aer]
+    permission: nineeyes.reload
+    permission-message: §4У Вас нет прав для выполнения данной команды.
+  donate:
+    description: no donate
+    usage: /<command>
+    aliases: [donat]
+  hack:
+    description: hack
+    usage: /<command>
+    aliases: [hack]
+  message:
+    description: message
+    usage: /<command>
+    aliases: [vote, message]
